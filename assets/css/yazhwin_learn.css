@@ -312,11 +312,12 @@ body {
 
 a.main-button-slider {
   font-size: 13px;
-  border-radius: 20px;
+  border-radius: 8px;
   padding: 12px 20px;
-  background-color: #0e034d;
+  background-color: #ffffff;
   text-transform: uppercase;
-  color: #fff;
+  font-weight: bold;
+  color: #0a0131;
   letter-spacing: 0.25px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -325,48 +326,9 @@ a.main-button-slider {
 }
 
 a.main-button-slider:hover {
-  background-color: #8261ee;
+  background-color: #02063b;
+  color: white;
 }
-
-a.main-button {
-  font-size: 13px;
-  border-radius: 20px;
-  padding: 12px 20px;
-  background-color: #8261ee;
-  text-transform: uppercase;
-  color: #fff;
-  letter-spacing: 0.25px;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-
-a.main-button:hover {
-  background-color: #190242;
-}
-
-button.main-button {
-  outline: none;
-  border: none;
-  cursor: pointer;
-  font-size: 13px;
-  border-radius: 20px;
-  padding: 12px 20px;
-  background-color: #8261ee;
-  text-transform: uppercase;
-  color: #fff;
-  letter-spacing: 0.25px;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-
-button.main-button:hover {
-  background-color: #01024e;
-}
-
 
 /* 
 ---------------------------------------------
@@ -442,12 +404,12 @@ header
 .header-area .main-nav .nav li a:hover {
   color: #ff589e;
 }
-.header-area .main-nav .nav li .dropdown {
+.header-area .main-nav .nav  .dropdown {
   display: inline-block;
   position: relative;
 }
 
-.header-area .main-nav .nav li .dropdown-options {
+.header-area .main-nav .nav  .dropdown-options {
   display: none;
   position: absolute;
   overflow: auto;
@@ -457,7 +419,7 @@ header
   box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
 }
 
-.header-area .main-nav .nav li .dropdown:hover .dropdown-options {
+.header-area .main-nav .nav .dropdown:hover .dropdown-options {
   display: block;
 }
 
@@ -508,6 +470,9 @@ header
 @media (max-width: 991px) {
   .header-area .apply {
     visibility: hidden;
+  }
+  .dropdown{
+    width: 300px;
   }
 }
 .header-area .main-nav .menu-trigger {
@@ -680,9 +645,10 @@ header
     border: none !important;
     background: #fff !important;
     color: #3B566E !important;
+    
   }
   .header-area .main-nav .nav li a:hover {
-    background: #eee !important;
+    background: #070707 !important;
   }
 }
 
@@ -721,7 +687,7 @@ welcome
 .welcome-area .header-text h1 {
   font-weight: 500;
   font-size: 36px;
-  line-height: 54px;
+  line-height: 75px;
   letter-spacing: 1.4px;
   margin-bottom: 30px;
   color: #fff;
@@ -781,6 +747,7 @@ welcome
   .welcome-area {
     margin-bottom: 100px;
     height: 400px;
+    
   }
   .welcome-area .header-text {
     top: 50% !important;
@@ -820,6 +787,7 @@ courses
   color: #190242;
   font-weight: bold;
 }
+
 
 .courses-small-item {
   cursor: pointer;
@@ -899,11 +867,14 @@ courses
   z-index: 9;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 600px) {
   .home-feature {
     padding-bottom: 0px;
     padding-top: 0px;
     margin-top: 0px;
+  }
+  .coursehead{
+    padding-top: 0px;
   }
 }
 

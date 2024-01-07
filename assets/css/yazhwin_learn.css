@@ -388,7 +388,7 @@ header
 
 .header-area .main-nav .nav li a {
   display: block;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 13px;
   color: #4307f6;
   -webkit-transition: all 0.3s ease 0s;
@@ -402,7 +402,7 @@ header
 }
 
 .header-area .main-nav .nav li a:hover {
-  color: #ff589e;
+  color: #17dde4;
 }
 .header-area .main-nav .nav  .dropdown {
   display: inline-block;
@@ -580,11 +580,11 @@ header
 }
 
 .header-area.header-sticky .nav li a {
-  color: #1e1e1e;
+  color: #09023f;
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #ff589e;
+  color: #100347;
 }
 
 @media (max-width: 1200px) {
@@ -634,7 +634,7 @@ header
   .header-area .main-nav .nav li {
     width: 100%;
     background: #fff;
-    border-bottom: 1px solid #eee;
+    border-bottom: 0px solid #eee;
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
@@ -646,6 +646,9 @@ header
     background: #fff !important;
     color: #3B566E !important;
     
+  }
+  .header-area .main-nav .nav li a .active{
+    color: #02063b;
   }
   .header-area .main-nav .nav li a:hover {
     background: #070707 !important;
@@ -726,7 +729,7 @@ welcome
 
 @media (max-width: 820px) {
   .welcome-area{
-    height: 300px;
+    /* height: 300px; */
   }
   .welcome-area .header-text {
     top: 65% !important;
@@ -745,8 +748,8 @@ welcome
 
 @media (max-width: 765px) {
   .welcome-area {
-    margin-bottom: 100px;
-    height: 400px;
+    /* margin-bottom: 100px; */
+    /* height: 550px; */
     
   }
   .welcome-area .header-text {
@@ -760,7 +763,7 @@ welcome
   .welcome-area .header-text h1 {
     font-weight: 600;
     font-size: 24px !important;
-    line-height: 30px !important;
+    line-height: 40px !important;
     margin-bottom: 30px !important;
   }
   .welcome-area .header-text h1 span {
@@ -770,7 +773,7 @@ welcome
     text-align: center;
     color: #fff;
     font-size: 14px;
-    line-height: 22px;
+    line-height: 32px;
     margin-bottom: 40px;
   }
 }
@@ -784,6 +787,7 @@ courses
 .coursehead{
   text-align: center;
   padding-bottom: 50px;
+  padding-top: 50px;
   color: #190242;
   font-weight: bold;
 }
@@ -872,9 +876,6 @@ courses
     padding-bottom: 0px;
     padding-top: 0px;
     margin-top: 0px;
-  }
-  .coursehead{
-    padding-top: 0px;
   }
 }
 

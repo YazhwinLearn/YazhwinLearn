@@ -449,13 +449,14 @@ header
   /* box-sizing: border-box; */
   color: #FFFFFF;
   display: flex;
+  
   font-family: Phantomsans, sans-serif;
   font-size: 16px;
   justify-content: center;
   line-height: 1em;
   max-width: 100%;
   min-width: 140px;
-  padding: 19px 24px;
+  padding: 24px 24px;
   text-decoration: none;
   user-select: none;
   -webkit-user-select: none;
@@ -901,10 +902,29 @@ Pay After placement courses
   padding-right: 20px;
   padding-top: 30px;
 }
+.pap-area{
+  margin: 100px;
+}
+.pap-area h1{
+  text-align: center;
+  padding-bottom: 20px;
+  color: #02063b;
+  font-weight: bold;
+}
+.pap-area p{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: 505;
+  line-height: 40px;
+  text-align: justify;
+}
 
-@media (max-width:500px){
+@media (max-width:765px){
   .paphead{
     font-size: 24px;
+  }
+  .pap-area{
+    margin: 50px;
   }
 }
 /* 

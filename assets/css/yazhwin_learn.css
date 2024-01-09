@@ -336,7 +336,7 @@ header
 --------------------------------------------- 
 */
 .header-area {
-  position: fi;
+  position: fixed;
   top: 0px;
   left: 0px;
   right: 0px;
@@ -669,7 +669,8 @@ welcome
 */
 .welcome-area {
   overflow: hidden;
-  position: relative;
+  /* position: relative; */
+  margin-top: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -682,41 +683,42 @@ welcome
 
 .welcome-area .header-text {
   position: absolute;
-  top: 50%;
+  top: 55%;
   transform: translateY(-55%);
   text-align: center;
   width: 100%;
 }
 
 .welcome-area .header-text h1 {
-  font-weight: 500;
-  font-size: 36px;
-  line-height: 75px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 50px;
   letter-spacing: 1.4px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   color: #fff;
+  word-spacing: 5px;
 }
 
 .welcome-area .header-text p {
   font-weight: 400;
-  font-size: 15px;
+  font-size: 16px;
   color: #fff;
-  line-height: 28px;
+  line-height: 40px;
   letter-spacing: 0.25px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   position: relative;
 }
 
 @media (max-width: 991px) {
   .welcome-area .header-text {
-    top: 65% !important;
+    /* top: 65% !important; */
     transform: perspective(1px) translateY(-60%) !important;
     text-align: center;
   }
   .welcome-area .header-text h1 {
     text-align: center;
     color: #fff;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
   }
   .welcome-area .header-text h1 span {
     color: #fff;
@@ -724,7 +726,7 @@ welcome
   .welcome-area .header-text p {
     text-align: center;
     color: #fff;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
   }
 }
 
@@ -733,39 +735,36 @@ welcome
     /* height: 300px; */
   }
   .welcome-area .header-text {
-    top: 65% !important;
-    
+    /* top: 65% !important; */
+    width: 500px;
     transform: perspective(1px) translateY(-60%) !important;
   }
    .welcome-area .header-text h1 {
-    font-size: 22px;
-    line-height: 30px;
-    margin-bottom: 15px;
-  }
-  .welcome-area .header-text p {
-    margin-bottom: 20px;
+    font-size: 28px;
+    /* line-height: 30px; */
+    /* margin-bottom: 15px; */
   }
 }
 
 @media (max-width: 765px) {
-  .welcome-area {
-    /* margin-bottom: 100px; */
-    /* height: 550px; */
-    
-  }
+  
   .welcome-area .header-text {
-    top: 50% !important;
+    /* top: 50% !important; */
     transform: perspective(1px) translateY(-50%) !important;
     text-align: center;
+    
   }
   .welcome-area .header-text .buttons {
     display: none;
   }
   .welcome-area .header-text h1 {
-    font-weight: 600;
+    /* font-weight: 600; */
+    /* width: 400px; */
+    
     font-size: 24px !important;
-    line-height: 40px !important;
-    margin-bottom: 30px !important;
+    /* line-height: 40px !important; */
+    /* margin-bottom: 30px !important; */
+    
   }
   .welcome-area .header-text h1 span {
     color: #fff;
@@ -773,9 +772,9 @@ welcome
   .welcome-area .header-text p {
     text-align: center;
     color: #fff;
-    font-size: 14px;
-    line-height: 32px;
-    margin-bottom: 40px;
+    /* font-size: 14px; */
+    /* line-height: 32px; */
+    /* margin-bottom: 50px; */
   }
 }
 
@@ -1538,7 +1537,7 @@ Connect
 --------------------------------------------- 
 */
 .connect {
-  background-image: linear-gradient(127deg, #270d83 0%, #3406ca 91%);
+  /* background-image: linear-gradient(127deg, #270d83 0%, #3406ca 91%); */
   padding-top: 30px;
   /* height: 150px; */
 }

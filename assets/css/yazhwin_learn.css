@@ -1082,6 +1082,30 @@ Choose us
     padding:20px 00px 0px 00px;
   }
 }
+@media (max-width:400px){
+  .key-area .key-head{
+  font-size: 28;
+  }
+  .key-area{
+    height: 750px;
+
+  }
+  .key-area .key-c{
+    /* margin: 20px; */
+    padding-left: 40px;
+    
+  }
+  
+  .key-area .key-c .key-high .key-col2{
+    /* left: 0px; */
+    padding-left: 0px;
+
+  }
+  .key-area .key-c .key-high{
+    line-height: 28px;
+    /* padding:100px 00px 0px 00px; */
+  }
+}
 /* 
 ---------------------------------------------
 contact

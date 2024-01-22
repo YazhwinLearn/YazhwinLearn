@@ -976,7 +976,7 @@ Choose us
 --------------------------------------------- 
 */
 .choose-us{
-  height: 400px; 
+  /* height: 400px;  */
   position: relative;
   margin-top: 50px;
   color: #fff;
@@ -1012,9 +1012,14 @@ Choose us
 
 @media (max-width:600px){
  .choose-us{
-  height: 900px;
+  /* height: 900px; */
  } 
 }
+@media (max-width:400px){
+  .choose-us{
+   /* height: 1600px; */
+  } 
+ }
 /* Key Highlights */
 
 .key-area{

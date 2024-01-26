@@ -883,7 +883,17 @@ courses
     margin-top: 0px;
   }
 }
-
+.quotes{
+  background: #ffffff; padding: 100px; text-align: center; font-size: 20px; color: #0c0458;font-weight: 550; line-height: 50px;
+}
+@media (max-width: 600px) {
+  .quotes{
+    padding: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+  }
+}
 /* 
 ---------------------------------------------
 Pay After placement courses
@@ -976,17 +986,16 @@ Choose us
 --------------------------------------------- 
 */
 .choose-us{
-  /* height: 400px;  */
+  padding: 100px;
+  padding-top: 75px;
+  padding-bottom: 10px;
   position: relative;
-  margin-top: 50px;
   color: #fff;
-  background: linear-gradient(72deg, rgba(2, 44, 116, 0.9) 0%, rgba(81, 2, 251, 0.9) 100%);
+  background: linear-gradient(72deg, rgba(3, 49, 129, 0.9) 0%, rgba(81, 2, 251, 0.9) 100%);
 }
 .choose-us .c-text{
   text-align: center;
-  padding: 50px;
   line-height: 50px;
-  
 }
 .choose-us .c-text span{
   font-size: 36px;
@@ -1000,24 +1009,22 @@ Choose us
   
 }
  .choose-us p{
-  text-align: justify; top: 20px; bottom: 20px; line-height: 40px;
+  text-align: justify; padding-top: 50px; line-height: 40px;
  }
-.w-process{
-  margin: 100px;
-
-}
-.w-process1{
-  text-align: center;
-}
 
 @media (max-width:600px){
  .choose-us{
   /* height: 900px; */
+  padding-left: 20px;
+  padding-right: 20px;
+  
  } 
 }
 @media (max-width:400px){
   .choose-us{
    /* height: 1600px; */
+   padding-left: 20px;
+   padding-right: 20px;
   } 
  }
 /* Key Highlights */
@@ -1258,6 +1265,10 @@ footer {
 
 footer .footer-area{
   margin: 50px;
+}
+footer a{
+  /* text-decoration: none; */
+  color: #fff;
 }
 footer p{
   margin-top: 20px;

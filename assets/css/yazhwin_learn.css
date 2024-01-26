@@ -996,7 +996,7 @@ Pay After placement courses
 
   width: 200px;
 }
-@media (max-width:400px){
+@media (max-width:600px){
   .paphead{
     font-size: 24px;
   }

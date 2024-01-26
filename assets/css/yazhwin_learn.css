@@ -1079,90 +1079,38 @@ Choose us
   } 
  }
 /* Key Highlights */
-
 .key-area{
-  height: 700px; position: relative; background: linear-gradient(259deg, #101AFA 0%, #0B11A8 39%, #030532 95%);
-}
-.key-area .key-c{
-  margin: 50px; background: #fff; position: absolute; right: 0px; left: 0px; top: 0px; bottom: 0px; position: absolute; 
-  border-top-left-radius: 10px; border-top-right-radius: 50px; border-bottom-right-radius: 10px; border-bottom-left-radius: 40px
+  padding-top: 50px; padding: 50px; background: linear-gradient(259deg, #101AFA 0%, #0B11A8 39%, #030532 95%);
 }
 .key-area .key-head{
-  top:20px; position: relative; text-align: center; color: #040127; font-size: 36px;  font-weight: 700; 
+  color: #fff;
+  font-size: 32px;
+  font-weight: 600;
+  padding-bottom: 30px;
+  text-align: center;
 }
-.key-area .key-c .key-high{
-  justify-content: center; line-height: 50px;
-  display: flex; padding:50px 00px 0px 250px; position: absolute;
+.key-area .key-c{
+  background: #fff;  padding: 50px 100px 50px 150px;
+  border-top-left-radius: 10px; border-top-right-radius: 50px; border-bottom-right-radius: 10px; border-bottom-left-radius: 40px;
 }
-.key-area .key-c .key-high .key-col1{
-  align-items: center;
-  color: #01073D;
+.key-area .key-c h4{
+  font-weight: 550;
+  color: #02063b;
+  font-size: 18px;
 }
-.key-area .key-c .key-high .key-col1 h4{
-  font-size: 16px;
-  font-weight: 700;
-  
-  
+.key-area .key-c .key-col2{
+  padding-left: 100px;
 }
-.key-area .key-c .key-high .key-col2{
-   
-  color: #01073D;
-  padding-left: 60px;
-   
-}
-.key-area .key-c .key-high .key-col2 h4{
-  font-size: 16px;
-  font-weight: 700;
-   
-  
-}
-
 @media (max-width:600px){
-  .key-area .key-head{
-  font-size: 28;
-  }
-  .key-area{
-    height: 750px;
-
-  }
-  .key-area .key-c{
-    margin: 20px;
-  }
-  .key-area .key-c .key-high .key-col2{
-    left: 20px;
-  }
-  .key-area .key-c .key-high .key-col2{
-    left: 20px;
-    padding-left: 20px;
-  }
-  .key-area .key-c .key-high{
-    line-height: 30px;
-    padding:20px 00px 0px 00px;
-  }
+.key-area{
+  padding: 40px;
 }
-@media (max-width:400px){
-  .key-area .key-head{
-  font-size: 28;
-  }
-  .key-area{
-    height: 750px;
-
-  }
-  .key-area .key-c{
-    /* margin: 20px; */
-    padding-left: 40px;
-    
-  }
-  
-  .key-area .key-c .key-high .key-col2{
-    /* left: 0px; */
-    padding-left: 0px;
-
-  }
-  .key-area .key-c .key-high{
-    line-height: 28px;
-    /* padding:100px 00px 0px 00px; */
-  }
+.key-area .key-c{
+  padding: 20px 50px 20px 50px;
+}
+.key-area .key-c .key-col2{
+  padding-left: 0px;
+}
 }
 /* 
 ---------------------------------------------

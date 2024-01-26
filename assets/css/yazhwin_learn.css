@@ -670,15 +670,13 @@ welcome
   overflow: hidden;
   position: relative;
   display: flex;
-  align-items: center;
   justify-content: center;
   background-image: url(../images/bannerbg.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; 
   height: 550px;
-  padding-left: 20px;
-  padding-right: 20px;
+
 }
 
 .welcome-area .header-text {
@@ -730,6 +728,7 @@ welcome
     text-align: center;
     color: #fff;
     margin-bottom: 50px;
+    
   }
 }
 
@@ -782,6 +781,8 @@ welcome
     font-size: 14px;
     line-height: 32px;
     margin-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 

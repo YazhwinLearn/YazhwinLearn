@@ -996,7 +996,8 @@ Pay After placement courses
    
 }
 .placement div img{
-
+  padding-top: 30px;
+  padding-left: 50px;
   width: 200px;
 }
 @media (max-width:600px){
@@ -1020,7 +1021,7 @@ Pay After placement courses
     color: #02a0fc;
   }
   .placement div img{
-
+    padding-left: 10px;
     width: 100px;
   }
   .placement .own-c{

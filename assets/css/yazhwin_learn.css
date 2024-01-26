@@ -959,7 +959,44 @@ Pay After placement courses
  .how p b{
     color: #02a0fc;
   }
-@media (max-width:765px){
+
+.placement{
+  background: #010370;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #fff;
+}
+.placement h1{
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  padding-left: 0px;
+}
+.placement .own-c{
+  background: #fff;
+  
+  /* padding-right: 40px; */
+  margin:50px;
+  border-radius: 20px;
+}
+.placement .own-c h2{
+  padding-top: 20px;
+  font-size: 28px;
+  font-weight: 600;
+  /* text-align: left; */
+  color: #1a0468;
+  text-align: center;
+
+}
+.placement .own-c div  {
+  padding-left: 75px;
+   
+}
+.placement div img{
+
+  width: 200px;
+}
+@media (max-width:600px){
   .paphead{
     font-size: 24px;
   }
@@ -978,6 +1015,17 @@ Pay After placement courses
   }
   .how p b{
     color: #02a0fc;
+  }
+  .placement div img{
+
+    width: 100px;
+  }
+  .placement .own-c{
+    padding-left: 20px;
+  }
+  .placement .own-c div  {
+    padding-left: 10px;
+     
   }
 }
 /* /* 

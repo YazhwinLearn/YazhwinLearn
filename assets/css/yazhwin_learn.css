@@ -677,6 +677,8 @@ welcome
   background-position: center center;
   background-size: cover; 
   height: 550px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .welcome-area .header-text {

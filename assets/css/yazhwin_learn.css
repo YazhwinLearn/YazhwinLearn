@@ -788,9 +788,9 @@ courses
   display: block;
   background: #FFFFFF;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
   padding: 30px;
   text-align: center;
   -webkit-transition: all 0.3s ease 0s;
@@ -801,9 +801,15 @@ courses
   margin-bottom: 30px;
   height: 300px;
 }
-
+.courses-small-item:hover{
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    border-image: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66)) 1;
+  
+}
 .courses-small-item:hover .icon {
-  background-color: #ff589e;
+  background-color: #3803f7;
 }
 
 .courses-small-item .icon {

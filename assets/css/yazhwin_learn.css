@@ -1051,6 +1051,12 @@ padding-bottom: 50px;
   background-color: #040a80;
   color: #fff;
 }
+@media (max-width:450px){
+  .how .circle{
+    margin: 0px 0px 0px 125px;
+  }
+
+}
 @media (max-width:600px){
   .paphead{
     font-size: 24px;

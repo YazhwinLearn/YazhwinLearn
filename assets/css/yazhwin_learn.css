@@ -804,8 +804,9 @@ courses
 .courses-small-item:hover{
     border-style: solid;
     border-radius: 20px;
-    border-width: 1px;
-    border-image: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66)) 1;
+    border-width: 1.5px;
+    border-color: limegreen;
+    /* border-image: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66)) 1; */
   
 }
 .courses-small-item:hover .icon {
@@ -982,6 +983,66 @@ padding-bottom: 50px;
   text-align: center;
   color: #010370;
 }
+
+/********    Advantage   ********/
+
+.advantage{
+padding: 50px 100px 50px 100px;
+}
+.advantage .ad-head{
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+  color: #02063b;
+  padding: 0px 0px 50px 0px;
+}
+.advantage .ad {
+  padding: 40px;
+  margin-left: 41px;
+  width: 330px;
+  text-align: center;
+  border-radius: 8px;
+  border-width: 2px;
+  border-style: solid;
+  /* flex-wrap: nowrap; */
+}
+.advantage .ad h2{
+  font-size: 20pxpx;
+  font-weight: 600;
+  background: -webkit-linear-gradient(45deg,#010370,#02063b,#02a0fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+       
+  /* text-decoration-color: linear-gradient(#010370,#02063b,#02a0fc) 1; */
+}
+.advantage .ad p{
+  padding-top: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #02063b;
+}
+.advantage .ad1{
+  padding: 30px;
+  margin-top: 41px;
+  /* width: 330px; */
+  text-align: center;
+  border-radius: 8px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #0fdd2b;
+}
+.advantage .ad1 p{
+  /* padding-top: 40px; */
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: 600;
+  background: -webkit-linear-gradient(120deg,#09f8ec,#084d02,#0fdd2b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* color: #02063b; */
+}
+
 .placement{
   background: #010370;
   padding-top: 50px;
@@ -1020,30 +1081,32 @@ padding-bottom: 50px;
   width: 200px;
 }
 .enroll{
-  padding: 50px;
+  padding: 50px 100px 50px 100px;
 }
 .enroll .enroll-head{
   text-align: center;
-  font-size: 32px;
+  font-size: 36px;
   font-weight: 600;
   color: #02063b;
   padding-bottom: 30px;
 }
 .enroll .process{
-  padding: 50px;
+  /* padding: 50px; */
 }
 
-.enroll .process .p1{
-  width: 150px;
-  /* height: 300px;
-  width: 424px; */
-  border-radius: 20px;
+.enroll .process{
+  text-align: center;
+  width: 250px;
+  margin: 0px 20px 40px 0px;
+  padding: 50px;
   background: linear-gradient(126deg, #3807b6 0%, #5d06a5 14.24%, #2305b6 49.56%, #130258 93.2%);
-  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
-  border-radius: 20px;
-  padding-right: 20px;
-  padding: 10px;
+  box-shadow: 0 8px 48px 0 rgba(0, 0, 0, 0.10);
+  border-radius: 8px;
   color: #fff;
+}
+
+.enroll .process img{
+  padding-bottom: 40px;
 }
 
 .enroll .enroll-apply {
@@ -1107,6 +1170,19 @@ padding-bottom: 50px;
     text-align: center;
     color: #010370;
   }
+  .advantage{
+    padding: 50px 30px 50px 30px;
+    }
+    .advantage .ad-head{
+      font-size: 32px;
+      padding: 0px 0px 50px 0px;
+    }
+    .advantage .ad {
+      /* padding: 50px; */
+      margin-bottom: 41px;
+      width: 375px;
+    }
+
   .placement div img{
     padding-left: 10px;
     width: 100px;

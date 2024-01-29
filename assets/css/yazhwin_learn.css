@@ -1194,6 +1194,19 @@ padding: 50px 100px 50px 100px;
     padding-left: 10px;
      
   }
+  .enroll{
+    padding: 50px 50px 50px 50px;
+  }
+  
+  .enroll .process{
+    width: 450px;
+    margin: 0px 0px 40px 0px;
+  }
+  
+  .enroll .process img{
+    padding-bottom: 40px;
+  }
+  
 }
 @media (max-width:450px){
   .how .circle{

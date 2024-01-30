@@ -1171,15 +1171,15 @@ padding: 50px 100px 50px 100px;
     color: #010370;
   }
   .advantage{
-    padding: 50px 30px 50px 30px;
+    padding: 50px 50px 50px 50px;
     }
     .advantage .ad-head{
       font-size: 32px;
       padding: 0px 0px 50px 0px;
     }
     .advantage .ad {
-      /* padding: 50px; */
-      margin-bottom: 41px;
+      margin-left: 0px;
+      margin-bottom: 40px;
       width: 375px;
     }
 

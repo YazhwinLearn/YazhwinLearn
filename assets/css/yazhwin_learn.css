@@ -1231,6 +1231,11 @@ padding: 50px 100px 50px 100px;
   .placement{
     padding:50px 30px 50px 30px;
   }
+  .placement .own-c img{
+    /* padding-left: 10px; */
+    width: 80px;
+
+  }
 }
 /* /* 
 ---------------------------------------------

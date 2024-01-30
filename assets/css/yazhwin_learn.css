@@ -1228,7 +1228,9 @@ padding: 50px 100px 50px 100px;
   .how .circle{
     margin: 0px 0px 0px 125px;
   }
-
+  .placement{
+    padding:50px 30px 50px 30px;
+  }
 }
 /* /* 
 ---------------------------------------------

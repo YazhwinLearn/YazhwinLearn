@@ -1045,40 +1045,41 @@ padding: 50px 100px 50px 100px;
 
 .placement{
   background: #010370;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding:50px 100px 50px 100px;
   color: #fff;
 }
 .placement h1{
   font-size: 32px;
+  padding: 0px 0px 50px 0px;
   font-weight: 600;
   text-align: center;
-  padding-left: 0px;
 }
 .placement .own-c{
   background: #fff;
-  
-  /* padding-right: 40px; */
-  margin:50px;
   border-radius: 20px;
+  padding: 50px 20px 50px 45px;
+  margin-bottom: 40px;
 }
-.placement .own-c h2{
-  padding-top: 20px;
+.placement .own-c .oc{
   font-size: 28px;
   font-weight: 600;
-  /* text-align: left; */
   color: #1a0468;
   text-align: center;
+}
+.placement .own-c h2{
+  font-size: 28px;
+  font-weight: 600;
+  color: #1a0468;
+  text-align: center;
+  padding-bottom: 50px;
 
 }
-.placement .own-c div  {
-  padding-left: 75px;
-   
-}
 .placement div img{
-  padding-top: 30px;
-  padding-left: 50px;
   width: 200px;
+}
+.placement .other-c img{
+  width: 200px;
+  padding: 30px 20px 0px 50px;
 }
 .enroll{
   padding: 50px 100px 50px 100px;
@@ -1182,18 +1183,33 @@ padding: 50px 100px 50px 100px;
       margin-bottom: 40px;
       width: 375px;
     }
-
-  .placement div img{
-    padding-left: 10px;
-    width: 100px;
-  }
-  .placement .own-c{
-    padding-left: 20px;
-  }
-  .placement .own-c div  {
-    padding-left: 10px;
-     
-  }
+  
+.placement{
+  padding:50px 50px 50px 50px;
+}
+.placement h1{
+  font-size: 28px;
+}
+.placement .own-c{
+  background: #fff;
+  border-radius: 20px;
+  padding: 20px 20px 30px 45px;
+  margin-bottom: 30px;
+}
+.placement .own-c .oc{
+  font-size: 24px;
+}
+.placement .own-c h2{
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+.placement div img{
+  width: 100px;
+}
+.placement .other-c img{
+  width: 100px;
+  padding: 30px 20px 0px 10px;
+}
   .enroll{
     padding: 50px 50px 50px 50px;
   }
@@ -1390,7 +1406,7 @@ Connect
 }
 .insta{
   height: 100px;
-  background-image: url("assets\images\instagram.svg");
+  background-image: url("assets\images\social/instagram.svg");
 }
 
 .connecthead{

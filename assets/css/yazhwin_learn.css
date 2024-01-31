@@ -791,7 +791,7 @@ courses
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   border-radius: 8px;
-  padding: 30px;
+  padding-top: 30px;
   text-align: center;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -799,7 +799,7 @@ courses
   transition: all 0.3s ease 0s;
   position: relative;
   margin-bottom: 30px;
-  height: 300px;
+  height: 380px;
 }
 .courses-small-item:hover{
     border-style: solid;
@@ -831,7 +831,7 @@ courses
   margin: auto;
   position: relative;
   margin-bottom: 30px;
-  background: #f6f6f7;
+  background: #250396;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -844,6 +844,16 @@ courses
   color: #fff;
 }
 
+.courses-small-item .img img{
+  width: 300px;
+  /* height: 200px; */
+  padding-bottom: 20px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  border-radius: 10px;
+}
 .courses-small-item .courses-title {
   font-weight: 500;
   font-size: 18px;
@@ -894,6 +904,7 @@ courses
     padding-right: 20px;
     font-size: 18px;
   }
+  
 }
 /* 
 ---------------------------------------------

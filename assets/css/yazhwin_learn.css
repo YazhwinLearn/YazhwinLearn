@@ -686,9 +686,9 @@ welcome
 
 .welcome-area .header-text p {
   font-weight: 400;
-  font-size: 15px;
+  font-size: 16px;
   color: #fff;
-  line-height: 28px;
+  line-height: 40px;
   letter-spacing: 0.25px;
   margin-bottom: 40px;
   position: relative;
@@ -831,7 +831,7 @@ courses
   margin: auto;
   position: relative;
   margin-bottom: 30px;
-  background: #250396;
+  background: #f4f4f7;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;

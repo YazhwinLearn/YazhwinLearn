@@ -756,6 +756,7 @@ courses
   margin-bottom: 30px;
   height: 400px;
 }
+
 .courses-small-item:hover{
     border-style: solid;
     border-radius: 20px;
@@ -817,15 +818,16 @@ courses
   margin-bottom: 15px;
   position: relative;
   z-index: 2;
-  padding: 0px 20px 0px 20px;
+  padding: 0px 10px 0px 10px;
 }
 
 .courses-small-item p {
   font-weight: 400;
+  /* text-align: left; */
   font-size: 13px;
   color: #777;
   letter-spacing: 0.5px;
-padding: 0px 20px 10px 20px;
+  padding: 0px 20px 10px 20px;
   line-height: 25px;
   position: relative;
   z-index: 2;

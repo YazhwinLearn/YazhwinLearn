@@ -817,6 +817,7 @@ courses
   margin-bottom: 15px;
   position: relative;
   z-index: 2;
+  padding: 0px 20px 0px 20px;
 }
 
 .courses-small-item p {

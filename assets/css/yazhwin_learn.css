@@ -986,6 +986,7 @@ padding: 50px 100px 50px 100px;
   border-radius: 8px;
   border-width: 2px;
   border-style: solid;
+  margin-bottom: 20px;
   /* flex-wrap: nowrap; */
 }
 .advantage .ad h2{

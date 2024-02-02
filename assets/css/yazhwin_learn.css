@@ -754,7 +754,7 @@ courses
   transition: all 0.3s ease 0s;
   position: relative;
   margin-bottom: 30px;
-  height: 380px;
+  height: 400px;
 }
 .courses-small-item:hover{
     border-style: solid;
@@ -824,7 +824,7 @@ courses
   font-size: 13px;
   color: #777;
   letter-spacing: 0.5px;
-
+padding: 0px 20px 10px 20px;
   line-height: 25px;
   position: relative;
   z-index: 2;

@@ -1,3 +1,25 @@
+var doc = document.getElementsByClassName('collapsible')
+var i
+
+for (i = 1; i < doc.length; i++) {
+  doc[i].addEventListener('click', function () {
+    this.classList.toggle('active')
+    var content = this.nextElementSibling
+    if (content.style.display === 'block') {
+      content.style.display = 'none'
+    } else {
+      content.style.display = 'block'
+    }
+  })
+}
+
+
+
+
+
+
+
+
 (function ($) {
 	
 	"use strict";

@@ -27,6 +27,7 @@ Table of contents
 font & reset css
 --------------------------------------------- 
 */
+/* @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"); */
 @import url("https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900");
 /* 
 ---------------------------------------------
@@ -668,9 +669,10 @@ welcome
 --------------------------------------------- 
 */
 .welcome-area {
-  background-image: url(../images/bannerbg.jpg);
+  background-image: url(../images/bannerbg.png);
   background-repeat: no-repeat;
   background-size: cover; 
+  /* background: linear-gradient(90deg,#040461,#0083FE, #040a7c); */
   padding: 120px;
   text-align: center;
   color: #fff;
@@ -698,7 +700,7 @@ welcome
   }
   .welcome-area h1 {
     padding-bottom: 50px;
-    line-height: 70px;
+    line-height: 50px;
     font-size: 32px;
   }
   .welcome-area p {
@@ -715,8 +717,8 @@ welcome
   }
   .welcome-area h1 {
     padding-bottom: 50px;
-    line-height: 50px;
-    font-size: 32px;
+    /* line-height: 50px; */
+    font-size: 28px;
   }
   .welcome-area p {
     padding-bottom: 50px;
@@ -811,9 +813,9 @@ courses
   border-radius: 10px;
 }
 .courses-small-item .courses-title {
-  font-weight: 500;
-  font-size: 18px;
-  color: #1e1e1e;
+  font-weight: 550;
+  font-size: 20px;
+  color: #12086e;
   letter-spacing: 0.7px;
   margin-bottom: 15px;
   position: relative;
@@ -822,10 +824,10 @@ courses
 }
 
 .courses-small-item p {
-  font-weight: 400;
+  font-weight: 450;
   /* text-align: left; */
   font-size: 13px;
-  color: #777;
+  color: #0d024b;
   letter-spacing: 0.5px;
   padding: 0px 20px 10px 20px;
   line-height: 25px;
@@ -834,7 +836,7 @@ courses
 }
 
 .courses-small-item a {
-  float: right;
+  /* float: right; */
   position: relative;
   z-index: 2;
 }
@@ -1078,10 +1080,6 @@ padding: 50px 100px 50px 100px;
   padding-bottom: 30px;
 }
 .enroll .process{
-  /* padding: 50px; */
-}
-
-.enroll .process{
   text-align: center;
   width: 351px;
   margin: 0px 20px 40px 0px;
@@ -1093,11 +1091,12 @@ padding: 50px 100px 50px 100px;
 }
 
 .enroll .process img{
-  padding-bottom: 40px;
+  padding-bottom: 40px 0px 10px 0px;
 }
 
 .enroll .enroll-apply {
   text-decoration: none;
+  margin: 40px;
   text-align: center;
 }
 .enroll .enroll-apply a{
@@ -1107,7 +1106,21 @@ padding: 50px 100px 50px 100px;
   background-color: #040a80;
   color: #fff;
 }
-
+.enroll .process1{
+  padding: 50px 100px 50px 100px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #02063b;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.enroll .process1 p{
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+  background: #02063b;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  color: #fff;
+}
 @media (max-width:600px){
   .paphead{
     font-size: 24px;
@@ -1208,7 +1221,24 @@ padding: 50px 100px 50px 100px;
   .enroll .process img{
     padding-bottom: 40px;
   }
-  
+  .enroll .process1{
+    padding: 10px 10px 10px 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #02063b;
+    box-shadow: rgba(28, 134, 240, 0.2) 0px 8px 24px;
+  }
+  .process1, .enroll{
+    padding: 0px 20px 0px 20px;
+  }
+  .enroll .process1 p{
+    padding: 20px 20px 20px 30px;
+    text-align: justify;
+    background: #02063b;
+    border-radius: 8px;
+    /* margin-bottom: 20px; */
+    color: #fff;
+  }
 }
 @media (max-width:450px){
   .how .circle{
@@ -1275,7 +1305,7 @@ Choose us
  }
 /* Key Highlights */
 .key-area{
-  padding-top: 50px; padding: 50px; background: linear-gradient(259deg, #101AFA 0%, #0B11A8 39%, #030532 95%);
+  padding-top: 50px; padding: 50px 100px 50px 100px; background: linear-gradient(259deg, #101AFA 0%, #0B11A8 39%, #030532 95%);
 }
 .key-area .key-head{
   color: #fff;
@@ -1285,13 +1315,16 @@ Choose us
   text-align: center;
 }
 .key-area .key-c{
-  background: #fff;  padding: 50px 100px 50px 150px;
+  background: #fff;  padding: 50px 0px 50px 150px;
   border-top-left-radius: 10px; border-top-right-radius: 50px; border-bottom-right-radius: 10px; border-bottom-left-radius: 40px;
 }
 .key-area .key-c h4{
   font-weight: 550;
   color: #02063b;
   font-size: 18px;
+}
+.key-area .key-c .key-col1{
+  padding-left: 50px;
 }
 .key-area .key-c .key-col2{
   padding-left: 100px;
@@ -1303,63 +1336,283 @@ Choose us
 .key-area .key-c{
   padding: 20px 50px 20px 50px;
 }
+.key-area .key-c .key-col1{
+  padding-left: 0px;
+}
 .key-area .key-c .key-col2{
   padding-left: 0px;
 }
 }
 /* 
 ---------------------------------------------
-contact
+tech covered
 --------------------------------------------- 
 */
+.tech {
+  padding: 100px;
+  padding-top: 50px; padding: 50px; background: linear-gradient(259deg, #101AFA 0%, #0B11A8 39%, #030532 95%);
+}
+.tech h1{
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  padding: 0px 0px 50px 0px;
+  color: #fff;
+}
+.tech .techs{
+  padding: 50px 50px 50px 50px;
+  border-radius: 20px;
+  background-color: #fff;
+  /* width: 5000px; */
 
-#contact-us {
-  padding: 160px 0px;
+}
+.tech .techs img{
+  width: 100px;
 }
 
-#contact-us h5 {
-  font-weight: 500;
-  font-size: 18px;
-  color: #1e1e1e;
-  letter-spacing: 0.25px;
-  line-height: 26px;
+@media (max-width:450px){
+  .tech .techs{
+    padding: 30px 20px 30px 0px;
+  }
+  .tech .techs img{
+    width: 100px;
+    padding-left: 20px;
+  }
 }
-
-.contact-text {
-  font-weight: 400;
-  font-size: 14px;
-  color: #6F8BA4;
-  letter-spacing: 0.6px;
-  line-height: 26px;
+.syllabus{
+  background: #fff;
+  color: #02063b;
+  padding: 50px 100px 50px 100px;
 }
-
-.contact-text p {
-  margin-bottom: 28px;
+.syllabus h1{
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  padding: 0px 0px 50px 0px;
+  color:#02063b;
 }
-
-.contact-form input,
-.contact-form textarea {
-  color: #777;
-  font-size: 14px;
-  border: 1px solid #eee;
-  width: 100%;
-  height: 50px;
-  outline: none;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-radius: 25px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+.syllabus .area{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   margin-bottom: 30px;
+  border-radius: 8px;
+}
+.syllabus .collapsible{
+  padding: 10px 50px 10px 50px;
+  border:none;
+
+}
+.syllabus .collapsible p{
+  text-align: justify;
+  
+}
+.syllabus .collapsible button{
+  width: 100%;
+  border: none;
+  background: none;
+  outline: none;
+  text-decoration: none;
+  text-align: left;
+  
 }
 
-.contact-form textarea {
-  height: 150px;
-  resize: none;
+.syllabus .collapsible .drop {
+  padding: 0px 0px 20px 0px;
+  /* background: #010370; */
+}
+.syllabus .collapsible .drop b {
+  width: 90%;
+  /* background: #010370; */
+}
+.syllabus .collapsible  p {
+  font-weight: 500;
+  color: #3d4a63;
+  line-height: 2rem!important;
+  margin-left: 40px;
+  
+}
+.chevron{
+  padding-left: 7%;
+  width: 10%;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 16px;
+  color: #aba6a6;
+  /* display: inline-block; */
+}
+.active, .chevron:hover {
+  color: #02063b;
+}
+.collapsible .chevron::before{
+  content: "\f078" !important;
+  display: block;
+}
+.collapsible .active .chevron::before{
+  display: none;
+}
+.collapsible .active .chevron::after{
+  content: "\f077" !important;
+}
+
+
+.collapsible {
+  width: 100%;
+  border: none;
+  background: none;
+  outline: none;
+  text-decoration: none;
+  text-align: left;
+      }
+
+      .content {
+        padding: 0 18px;
+        padding: 0px 0px 0px 30px;
+        display: none;
+        overflow: hidden;
+        
+        /* background-color: #fff; */
+      }
+      .content li{
+        color: #3d4a63;
+        font-weight: 500;
+        list-style:circle;
+        margin-left: 150px;
+        line-height: 40px;
+        
+      }
+.c-details{
+  padding: 50px 100px 50px 100px;
+}
+.c-details h1{
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+  color: #02063b;
+  padding-bottom: 20px;
+}
+.c-details .row{
+  /* flex-wrap: nowrap; */
+}
+.c-details .c-d1{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 259px;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 0px 20px 0px;
+  color: #ffffff;
+  
+  /* background-color: #02a0fc; */
+}
+.c-details .c-d1 h2{
+  text-align: center;
+  padding: 30px 10px 30px 10px;
+  font-size: 20px;
+  font-weight: 550;
+  background-color: #02063b;
+}
+.c-details .c-d1 p{
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  color: #02063b;
+}
+
+.job-o{
+  padding: 50px 100px 50px 200px;
+}
+.job-o h1{
+  font-size: 36px;
+  font-weight: 600;
+  color: #02063b;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.job-o .jod{
+  width: 40%;
+  margin: 0px 25px 0px 25px;
   padding: 20px;
+  line-height: 50px;
+  text-align: justify;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+.job-o .jod p{
+  font-size: 18px;
+  font-weight: 550;
+  color: #ffffff;
+  text-align: center;
+  background-color:#02063b;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+.job-o .jod h5{
+  font-size: 18px;
+  line-height: 40px;
+  font-weight: 500;
+}
+@media (max-width:650px){
+  .syllabus{
+    padding: 50px 10px 50px 10px;
+  }
+  .syllabus h1{
+    padding: 0px 0px 30px 0px;
+  }
+  .syllabus .collapsible  p {
 
+    margin-left: 20px;
+    
+  }
+  .syllabus .collapsible{
+    padding: 10px 20px 10px 20px;
+  }
+
+  
+        .content {
+          padding: 0 18px;
+          padding: 0px 20px 0px 20px;
+          display: none;
+          overflow: hidden;
+          
+          /* background-color: #fff; */
+        }
+        .content li{
+          color: #3d4a63;
+          font-weight: 500;
+          list-style:circle;
+          margin-left: 50px;
+          line-height: 40px;
+          
+        }
+
+        .c-details{
+          padding: 50px 50px 50px 50px;
+        }
+        .c-details h1{
+          font-size: 32px;
+        }
+        .c-details .c-d1{
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          width: 100%;
+          margin: 10px 0px 10px 0px;
+          padding: 10px 0px 20px 0px;
+          color: #ffffff;
+          
+          /* background-color: #02a0fc; */
+        }
+
+        .job-o{
+          padding: 50px 50px 50px 50px;
+        }
+        .job-o h1{
+          font-size: 32px;
+          padding-bottom: 20px;
+        }
+        .job-o .jod{
+          width: 100%;
+          margin: 0px 0px 25px 0px;
+          padding: 20px;
+        }
+        
+         
+}
 /* 
 ---------------------------------------------
 Connect

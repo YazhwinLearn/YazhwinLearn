@@ -1070,30 +1070,30 @@ padding: 50px 100px 50px 100px;
   padding: 30px 20px 0px 50px;
 }
 .enroll{
-  padding: 50px 100px 50px 100px;
+  margin: 50px 100px 50px 100px;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
 }
-.enroll .enroll-head{
+.enroll .enroll-head {
   text-align: center;
   font-size: 36px;
   font-weight: 600;
-  color: #02063b;
+  color: rgb(2, 6, 59);
   padding-bottom: 30px;
 }
 .enroll .process{
-  text-align: center;
-  width: 351px;
-  margin: 0px 20px 40px 0px;
-  padding: 50px;
-  background: linear-gradient(126deg, #3807b6 0%, #5d06a5 14.24%, #2305b6 49.56%, #130258 93.2%);
-  box-shadow: 0 8px 48px 0 rgba(0, 0, 0, 0.10);
   border-radius: 8px;
-  color: #fff;
+  width: 31.3%;
+  /* background-color: #02063b; */
+  margin: 1%;
+  padding: 50px;
+  background: linear-gradient(126deg, rgb(27, 1, 94) 0%, rgb(14, 1, 128) 14.24%, rgb(35, 5, 182) 49.56%, rgb(19, 2, 88) 93.2%);
 }
-
 .enroll .process img{
-  padding-bottom: 40px 0px 10px 0px;
+  width: 40%;
+  padding-bottom: 40px;
 }
-
 .enroll .enroll-apply {
   text-decoration: none;
   margin: 40px;
@@ -1180,7 +1180,7 @@ padding: 50px 100px 50px 100px;
     .advantage .ad {
       margin-left: 0px;
       margin-bottom: 40px;
-      width: 375px;
+      width: 100%;
     }
   
 .placement{
@@ -1210,16 +1210,21 @@ padding: 50px 100px 50px 100px;
   padding: 30px 20px 0px 10px;
 }
   .enroll{
-    padding: 50px 50px 50px 50px;
+    margin: 50px 20px 50px 20px;
   }
   
+
+  .enroll .enroll-head {
+    
+    font-size: 32px;
+  }
   .enroll .process{
-    width: 450px;
-    margin: 0px 0px 40px 0px;
-  }
-  
-  .enroll .process img{
-    padding-bottom: 40px;
+    border-radius: 8px;
+    width: 97%;
+    /* background-color: #02063b; */
+    margin: 3%;
+    padding: 50px;
+    background: linear-gradient(126deg, rgb(27, 1, 94) 0%, rgb(14, 1, 128) 14.24%, rgb(35, 5, 182) 49.56%, rgb(19, 2, 88) 93.2%);
   }
   .enroll .process1{
     padding: 10px 10px 10px 10px;
@@ -1324,10 +1329,10 @@ Choose us
   font-size: 18px;
 }
 .key-area .key-c .key-col1{
-  padding-left: 50px;
+  /* padding-left: 50px; */
 }
 .key-area .key-c .key-col2{
-  padding-left: 100px;
+  padding-left: 30px;
 }
 @media (max-width:600px){
 .key-area{

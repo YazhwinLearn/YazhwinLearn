@@ -1709,19 +1709,40 @@ footer {
 }
 
 footer .footer-area{
-  margin: 50px;
+  padding: 50px 100px 50px 100px;
+  /* justify-content: space-between; */
 }
+footer .footer-area .f-logo{
+  padding-right: 10px;
+  width: 25%;
+}
+footer .footer-area .f-c{
+  width: 20%;
+}
+footer .footer-area .f-in{
+  width: 20%;
+}
+footer .footer-area .f-l{
+  width: 15%;
+}
+footer .footer-area .f-con{
+  width: 20%;
+}
+
 footer a{
-  /* text-decoration: none; */
   color: #fff;
 }
+footer a:hover{
+  color: #07abf7;
+}
+
 footer p{
   margin-top: 20px;
   /* font-weight: 600; */
 }
 hr{
 background-color: #fff;
-opacity: .1;
+opacity: 0.1;
 }
 footer .copyright {
   text-align: center;
@@ -1737,6 +1758,10 @@ footer .copyright {
 }
 
 @media (max-width: 991px) {
+  
+footer .footer-area{
+  padding: 0px 50px 50px 12%;
+}
   footer .text {
     margin-bottom: 30px;
   }
@@ -1745,6 +1770,21 @@ footer .copyright {
   }
   footer .footer-nav {
     margin-bottom: 30px;
+  }
+  footer .footer-area .f-logo{
+    width: 100%;
+  }
+  footer .footer-area .f-c{
+    width: 100%;
+  }
+  footer .footer-area .f-in{
+    width: 100%;
+  }
+  footer .footer-area .f-l{
+    width: 100%;
+  }
+  footer .footer-area .f-con{
+    width: 100%;
   }
 }
 

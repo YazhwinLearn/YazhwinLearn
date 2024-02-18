@@ -591,6 +591,9 @@ header
   .header-area .main-nav {
     overflow: hidden;
   }
+  .header-area .main-nav .logo {
+    padding-left: 5%;
+  }
   .header-area .main-nav .nav {
     float: none;
     padding: 0px 0px 0px 0px;

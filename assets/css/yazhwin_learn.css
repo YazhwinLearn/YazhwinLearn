@@ -592,7 +592,7 @@ header
     overflow: hidden;
   }
   .header-area .main-nav .logo{
-    padding-left: 0px;
+    padding-left: 30px;
   }
   .header-area .main-nav .nav {
     float: none;

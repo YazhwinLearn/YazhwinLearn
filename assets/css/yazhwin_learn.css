@@ -1503,6 +1503,7 @@ tech covered
       }
 .c-details{
   padding: 50px 100px 50px 100px;
+  
 }
 .c-details h1{
   font-size: 36px;
@@ -1513,10 +1514,11 @@ tech covered
 }
 .c-details .row{
   /* flex-wrap: nowrap; */
+  justify-content: space-between;
 }
 .c-details .c-d1{
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  width: 259px;
+  width: 250px;
   margin: 10px 10px 10px 10px;
   padding: 10px 0px 20px 0px;
   color: #ffffff;

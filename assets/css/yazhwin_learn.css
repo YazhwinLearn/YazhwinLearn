@@ -726,10 +726,24 @@ courses
 */
 .coursehead{
   text-align: center;
+  font-size: 36px;
   padding-bottom: 50px;
   padding-top: 50px;
   color: #190242;
-  font-weight: bold;
+  font-weight: 600;
+}
+.coursehead1 {
+  font-size: 24px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  padding-top: 20px;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  background-color: #0e102a;
+  border-radius: 8px;
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
+  
 }
 
 
@@ -1305,9 +1319,11 @@ Choose us
   
 }
  .choose-us p{
-  text-align: justify; padding-top: 50px; line-height: 40px;
+  text-align: justify; line-height: 40px; padding: 50px 50px 50px 100px;
  }
-
+.choose-us .c-text b{
+  
+}
 @media (max-width:600px){
  .choose-us{
   /* height: 900px; */
@@ -1323,6 +1339,27 @@ Choose us
    padding-right: 20px;
   } 
  }
+ .intern-syll{
+  padding: 50px 200px 50px 200px;
+  background: #030532;
+  color: #fff;
+  line-height: 50px;
+ }
+ .intern-syll   .i-head{
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+
+ }
+ .intern-syll   b{
+  font-size: 24px;
+  /* text-align: justify; */
+ }
+ .intern-syll div .syll{
+  font-size: 18px;
+  padding-top: 40px;
+ }
+ 
 /* Key Highlights */
 .key-area{
   padding: 50px 100px 50px 100px; background: linear-gradient(259deg, #101AFA 0%, #0B11A8 39%, #030532 95%);

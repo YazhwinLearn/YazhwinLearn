@@ -1739,24 +1739,28 @@ footer {
   
 }
 footer .footer-area{
-  padding: 50px 100px 50px 100px;
+  padding: 50px 80px 50px 100px;
   /* justify-content: space-between; */
 }
 footer .footer-area .f-logo{
   padding-right: 10px;
-  width: 25%;
+  width: 21%;
 }
 footer .footer-area .f-c{
-  width: 20%;
+  width: 24%;
+  padding-left: 20px;
 }
 footer .footer-area .f-in{
   width: 20%;
+  padding-left: 20px;
 }
 footer .footer-area .f-l{
   width: 15%;
+  padding-left: 20px;
 }
 footer .footer-area .f-con{
   width: 20%;
+  padding-left: 10px;
 }
 
 footer a{

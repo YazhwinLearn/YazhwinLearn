@@ -691,7 +691,7 @@ welcome
   font-size: 36px;
 }
 .welcome-area p {
-  padding: 0px 100px 50px 100px;
+  padding: 0px 10% 50px 10%;
   font-weight: 500;
   font-size: 18px;
 }
@@ -709,9 +709,7 @@ welcome
     line-height: 50px;
     font-size: 32px;
   }
-  .welcome-area p {
-    padding: 0px 20px 50px 20px;
-  }
+
 }
 @media (max-width: 450px) {
   
@@ -726,9 +724,7 @@ welcome
     /* line-height: 50px; */
     font-size: 28px;
   }
-  .welcome-area p {
-    padding-bottom: 50px;
-  }
+
 }
 
 
@@ -1312,7 +1308,7 @@ Choose us
 --------------------------------------------- 
 */
 .choose-us{
-  padding: 50px 100px 50px 100px;
+  padding: 50px 100px 0px 100px;
   position: relative;
   color: #fff;
   background: linear-gradient(72deg, rgba(3, 49, 129, 0.9) 0%, rgba(81, 2, 251, 0.9) 100%);

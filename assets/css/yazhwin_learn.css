@@ -728,7 +728,7 @@ courses
   text-align: center;
   font-size: 36px;
   padding-bottom: 50px;
-  /* padding-top: 50px; */
+  padding-top: 50px;
   color: #190242;
   font-weight: 600;
 }
@@ -1151,7 +1151,7 @@ padding: 5% 10% 5% 10%;
     margin:25px;
   }
   .pap-area h1{
-    font-size: 36px;
+    font-size: 28px;
   }
   .how{
     padding: 50px 50px 50px 50px;
@@ -1238,6 +1238,9 @@ padding: 5% 10% 5% 10%;
   width: 100px;
   padding: 30px 20px 0px 10px;
 }
+
+}
+@media (max-width:780px){
   .enroll{
     margin: 50px 20px 50px 20px;
   }
@@ -1296,9 +1299,7 @@ Choose us
 --------------------------------------------- 
 */
 .choose-us{
-  padding: 100px;
-  padding-top: 75px;
-  padding-bottom: 10px;
+  padding: 50px 100px 50px 100px;
   position: relative;
   color: #fff;
   background: linear-gradient(72deg, rgba(3, 49, 129, 0.9) 0%, rgba(81, 2, 251, 0.9) 100%);
@@ -1319,18 +1320,33 @@ Choose us
   
 }
  .choose-us p{
-  text-align: justify; line-height: 40px; padding: 50px 50px 50px 100px;
+  text-align: justify; line-height: 40px; padding: 50px 20px 50px 20px; font-size: 18PX;
  }
-.choose-us .c-text b{
-  
-}
+ .choose-us b{
+ font-size: 20PX;
+ }
 @media (max-width:600px){
- .choose-us{
-  /* height: 900px; */
-  padding-left: 20px;
-  padding-right: 20px;
-  
- } 
+  .choose-us{
+    padding: 50px 50px 50px 50px;
+    position: relative;
+    color: #fff;
+    background: linear-gradient(72deg, rgba(3, 49, 129, 0.9) 0%, rgba(81, 2, 251, 0.9) 100%);
+  }
+  .choose-us .c-text{
+    text-align: center;
+    line-height: 50px;
+  }
+  .choose-us .c-text span{
+    font-size: 32px;
+    
+  }
+  .choose-us .c-text span:nth-child(2){
+    color: #4BE5CA;
+    
+  }
+   .choose-us p{
+    text-align: justify; line-height: 40px; padding: 50px 20px 0px 20px;
+   }
 }
 @media (max-width:400px){
   .choose-us{
@@ -1340,7 +1356,7 @@ Choose us
   } 
  }
  .intern-syll{
-  padding: 50px 200px 50px 200px;
+  padding: 50px 15% 50px 15%;
   background: #030532;
   color: #fff;
   line-height: 50px;
@@ -1348,7 +1364,8 @@ Choose us
  .intern-syll   .i-head{
   font-size: 32px;
   font-weight: 600;
-  text-align: center;
+  /* text-align: center; */
+  margin-bottom: 50PX;
 
  }
  .intern-syll   b{
@@ -1358,8 +1375,40 @@ Choose us
  .intern-syll div .syll{
   font-size: 18px;
   padding-top: 40px;
+  border: 1px solid #fff;
+  padding: 50px;
+  margin-bottom: 50px;
  }
- 
+ @media (max-width:900px){
+  .intern-syll{
+    padding: 50px 20px 10px 20px;
+  }
+  .intern-syll   .i-head{
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+  
+   }
+   .intern-syll div .syll{
+    font-size: 18px;
+    /* box-shadow: rgba(255, 255, 255, 0.2) 0px 8px 24px; */
+    padding: 40px 20px 50px 20px;
+    margin: 50px 0px 50px 0px;
+    border-radius: 8px;
+
+    /* background-color: #fff; */
+    color: #ffffff;
+   }
+   .intern-syll div .syll li{
+    font-size: 18px;
+    text-align: justify;
+    font-weight: 550;
+    color: #f0e8e8;
+    /* padding-left: 20px; */
+
+    /* list-style:square; */
+   }
+ }
 /* Key Highlights */
 .key-area{
   padding: 50px 100px 50px 100px; background: linear-gradient(259deg, #101AFA 0%, #0B11A8 39%, #030532 95%);
@@ -1578,7 +1627,7 @@ tech covered
 }
 
 .job-o{
-  padding: 50px 100px 50px 200px;
+  padding: 50px 10% 50px 10%;
 }
 .job-o h1{
   font-size: 36px;
@@ -1591,7 +1640,7 @@ tech covered
   width: 40%;
   margin: 0px 25px 0px 25px;
   padding: 20px;
-  line-height: 50px;
+  /* line-height: 50px; */
   text-align: justify;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
@@ -1603,12 +1652,29 @@ tech covered
   background-color:#02063b;
   margin-bottom: 20px;
   border-radius: 8px;
+  padding: 10px;
 }
 .job-o .jod h5{
   font-size: 18px;
   line-height: 40px;
   font-weight: 500;
 }
+@media (max-width:750px){
+
+        .job-o{
+          padding: 50px 50px 50px 50px;
+        }
+        .job-o h1{
+          font-size: 32px;
+          padding-bottom: 20px;
+        }
+        .job-o .jod{
+          width: 100%;
+          margin: 0px 0px 25px 0px;
+          padding: 20px;
+        }     
+}
+
 @media (max-width:650px){
   .syllabus{
     padding: 50px 10px 50px 10px;
@@ -1658,20 +1724,7 @@ tech covered
           
           /* background-color: #02a0fc; */
         }
-
-        .job-o{
-          padding: 50px 50px 50px 50px;
-        }
-        .job-o h1{
-          font-size: 32px;
-          padding-bottom: 20px;
-        }
-        .job-o .jod{
-          width: 100%;
-          margin: 0px 0px 25px 0px;
-          padding: 20px;
-        }
-        
+     
          
 }
 /* 
@@ -1736,7 +1789,6 @@ footer {
   padding-top: 30px;
   color: #fff;
   /* text-align: center; */
-  
 }
 footer .footer-area{
   padding: 50px 80px 50px 100px;
@@ -1780,18 +1832,55 @@ opacity: 0.1;
 }
 footer .copyright {
   text-align: center;
-  border-top: 1px solid rgba(250,250,250,0.2);
+  border-top: 2px solid rgba(250,250,250,0.2);
   margin-top: 30px;
   padding-top: 30px;
   padding-bottom: 30px;
+  /* padding-left: 20%; */
+  margin: 0% 0% 0% 0%;
   font-weight: 400;
   font-size: 12px;
   color: #fff;
   letter-spacing: 0.88px;
   text-transform: uppercase;
 }
-
-@media (max-width: 991px) {
+@media (max-width: 1100px) {
+  
+  footer .footer-area{
+    padding: 0px 50px 50px 12%;
+  }
+    footer .text {
+      margin-bottom: 30px;
+    }
+    footer h5 {
+      margin-bottom: 15px;
+    }
+    footer .footer-nav {
+      margin-bottom: 30px;
+    }
+    footer .footer-area .f-logo{
+      width: 100%;
+      padding-bottom: 50px;
+    }
+    footer .footer-area .f-c{
+      padding-left: 0px;
+      width: 50%;
+      margin-bottom: 50px;
+    }
+    footer .footer-area .f-in{
+      width: 50%;
+      padding-left: 0px;
+    }
+    footer .footer-area .f-l{
+      width: 50%;
+      padding-left: 0px;
+    }
+    footer .footer-area .f-con{
+      width: 50%;
+      padding-left: 0px;
+    }
+  }
+@media (max-width: 700px) {
   
 footer .footer-area{
   padding: 0px 50px 50px 12%;
@@ -1807,18 +1896,24 @@ footer .footer-area{
   }
   footer .footer-area .f-logo{
     width: 100%;
+    padding-bottom: 0px;
   }
   footer .footer-area .f-c{
+    padding-left: 0px;
     width: 100%;
+    margin-bottom: 0px;
   }
   footer .footer-area .f-in{
     width: 100%;
+    padding-left: 0px;
   }
   footer .footer-area .f-l{
     width: 100%;
+    padding-left: 0px;
   }
   footer .footer-area .f-con{
     width: 100%;
+    padding-left: 0px;
   }
 }
 

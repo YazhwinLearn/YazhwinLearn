@@ -627,25 +627,15 @@ header
     
   }
   .header-area .main-nav .nav li .dropdown-options a {
-    height: 50px !important;
+    margin-left: 20%;
     line-height: 50px !important;
-    width: 300px;
-    /* margin: 0px 25px 0px 25px; */
-    text-align: center;
     border: none !important;
     background: #fff !important;
     color: #3B566E !important;
     
   }
-  .header-area .main-nav .nav li .dropdown-options  .c  {
-    height: 50px !important;
-    line-height: 50px !important;
-    width: 300px;
-    /* margin: 0px 25px 0px 25px; */
-    padding-left: 30px;
-    border: none !important;
-    background: #fff !important;
-    color: #3B566E !important;
+  .header-area .main-nav .nav div {
+    width: 100%;
     
   }
   .header-area .main-nav .nav li a .active{

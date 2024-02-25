@@ -685,6 +685,42 @@ welcome
   font-weight: 500;
   font-size: 18px;
 }
+.welcome-area1 {
+  background-image: url(../images/bannerbg.png);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  /* background: linear-gradient(90deg,#040461,#0083FE, #040a7c); */
+  text-align: center;
+  color: #fff;
+  line-height: 40px;
+  margin-top: 80px;
+}
+.welcome-area1 h1 {
+  padding-bottom: 50px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 36px;
+}
+.welcome-area1 p {
+  padding: 0px 10% 50px 10%;
+  font-weight: 500;
+  font-size: 18px;
+}
+.welcome-area1 .back-link{
+  color: #fff;
+  text-decoration: none;
+  text-align: left;
+  padding-left: 100px;
+  padding-top: 20px;
+}
+.welcome-area1 .back-link a{
+  
+  /* text-decoration: none; */
+  color: #fff;
+}
+.welcome-area1 .welcome{
+  padding: 90px;
+}
 
 @media (max-width: 760px) {
   
@@ -699,6 +735,7 @@ welcome
     line-height: 50px;
     font-size: 32px;
   }
+  
 
 }
 @media (max-width: 450px) {
@@ -715,6 +752,15 @@ welcome
     font-size: 28px;
   }
 
+
+  .welcome-area1 .back-link{
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  .welcome-area1 .welcome{
+    padding: 50px 20px 50px 20px;
+  }
+  
 }
 
 

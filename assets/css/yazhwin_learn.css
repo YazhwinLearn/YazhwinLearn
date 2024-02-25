@@ -448,9 +448,6 @@ header
   .header-area .apply {
     visibility: hidden;
   }
-  .dropdown{
-    /* width: 300px; */
-  }
 }
 .header-area .main-nav .menu-trigger {
   cursor: pointer;
@@ -565,10 +562,7 @@ header
 }
 
 @media (max-width: 990px) {
-  .header-area .main-nav .nav li {
-    /* padding-left: 12px; */
-    /* padding-right: 12px; */
-  }
+  
   .header-area .main-nav:before {
     display: none;
   }
@@ -714,12 +708,26 @@ welcome
   padding-top: 20px;
 }
 .welcome-area1 .back-link a{
-  
-  /* text-decoration: none; */
+  font-size: 12px;
+  font-weight: 400;
   color: #fff;
 }
+.welcome-area1 .back-link a:hover{
+  font-weight: 600;
+  color: #fff;
+}
+.welcome-area1 .back-link .active{
+  font-weight: 600;
+  color: #fff;
+  cursor: none;
+}
+.slash{
+  font-size: 18px;
+  margin-inline: .5rem;
+  padding-top: 2px;
+}
 .welcome-area1 .welcome{
-  padding: 90px;
+  padding: 90px 0px 80px 0px;
 }
 
 @media (max-width: 760px) {
@@ -735,8 +743,13 @@ welcome
     line-height: 50px;
     font-size: 32px;
   }
-  
-
+  .welcome-area1 .back-link{
+    padding-left: 50px;
+    /* padding-top: 20px; */
+  }
+  .welcome-area1 .welcome{
+    padding: 50px 20px 50px 20px;
+  }
 }
 @media (max-width: 450px) {
   
@@ -754,8 +767,7 @@ welcome
 
 
   .welcome-area1 .back-link{
-    padding-left: 20px;
-    padding-top: 20px;
+    padding: 20px 40px 20px 40px;
   }
   .welcome-area1 .welcome{
     padding: 50px 20px 50px 20px;
@@ -1206,10 +1218,7 @@ padding: 5% 10% 5% 10%;
    position: absolute;
    padding-left: 20%;
   }
-  .how .process{
-    
-    /* position: relative; */
-  }
+  
   .how .circle{
     position: absolute;
     font-size: 40px; 

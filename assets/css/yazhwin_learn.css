@@ -695,7 +695,8 @@ welcome
   font-size: 36px;
 }
 .welcome-area1 p {
-  padding: 10px 5% 70px 5%;
+  padding: 10px 8% 70px 8%;
+  word-spacing: 1px;
   font-weight: 500;
   font-size: 18px;
 }
@@ -704,7 +705,6 @@ welcome
   text-decoration: none;
   text-align: left;
   padding-top: 20px;
-  /* padding-left: 100px; */
 }
 .welcome-area1 .back-link a{
   font-size: 12px;

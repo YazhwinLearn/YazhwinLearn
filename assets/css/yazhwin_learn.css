@@ -690,13 +690,13 @@ welcome
   margin-top: 80px;
 }
 .welcome-area1 h1 {
-  padding-bottom: 50px;
+  padding-bottom: 60px;
   text-align: center;
   font-weight: 600;
   font-size: 36px;
 }
 .welcome-area1 p {
-  padding: 0px 10% 50px 10%;
+  padding: 0px 16% 70px 16%;
   font-weight: 500;
   font-size: 18px;
 }
@@ -727,7 +727,7 @@ welcome
   padding-top: 2px;
 }
 .welcome-area1 .welcome{
-  padding: 90px 0px 80px 0px;
+  padding: 60px 0px 80px 0px;
 }
 
 @media (max-width: 760px) {
@@ -772,7 +772,14 @@ welcome
   .welcome-area1 .welcome{
     padding: 50px 20px 50px 20px;
   }
-  
+  .welcome-area1 h1{
+    font-size: 32px;
+  }
+  .welcome-area1 p {
+    padding: 0px 0% 70px 0%;
+    font-weight: 500;
+    font-size: 18px;
+  } 
 }
 
 

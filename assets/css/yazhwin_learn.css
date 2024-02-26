@@ -683,11 +683,10 @@ welcome
   background-image: url(../images/bannerbg.png);
   background-repeat: no-repeat;
   background-size: cover; 
-  /* background: linear-gradient(90deg,#040461,#0083FE, #040a7c); */
   text-align: center;
   color: #fff;
   line-height: 40px;
-  margin-top: 80px;
+  padding: 80px 9% 0px 9%;
 }
 .welcome-area1 h1 {
   padding-bottom: 60px;
@@ -696,7 +695,7 @@ welcome
   font-size: 36px;
 }
 .welcome-area1 p {
-  padding: 0px 16% 70px 16%;
+  padding: 0px 5% 70px 5%;
   font-weight: 500;
   font-size: 18px;
 }
@@ -704,8 +703,8 @@ welcome
   color: #fff;
   text-decoration: none;
   text-align: left;
-  padding-left: 100px;
   padding-top: 20px;
+  /* padding-left: 100px; */
 }
 .welcome-area1 .back-link a{
   font-size: 12px;
@@ -1688,7 +1687,11 @@ tech covered
 }
 
 .job-o{
+
   padding: 50px 10% 50px 10%;
+}
+.job-o .row{
+  justify-content: space-between;
 }
 .job-o h1{
   font-size: 36px;
@@ -1698,12 +1701,17 @@ tech covered
   padding-bottom: 50px;
 }
 .job-o .jod{
-  width: 40%;
-  margin: 0px 25px 0px 25px;
+  width: 50%;
+  margin: 0px 0px 20px 0px;
   padding: 20px;
   /* line-height: 50px; */
   text-align: justify;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: rgba(149, 157, 165, 0.1) 0px 8px 24px;
+}
+.job-o .jod:hover{
+  width: 50%;
+  border: 5px solid #02063b;
+  border-radius: 10px;
 }
 .job-o .jod p{
   font-size: 18px;
@@ -1734,6 +1742,11 @@ tech covered
           margin: 0px 0px 25px 0px;
           padding: 20px;
         }     
+        .job-o .jod:hover{
+          width: 100%;
+          border: 5px solid #02063b;
+          border-radius: 10px;
+        }
 }
 
 @media (max-width:650px){
@@ -1753,38 +1766,38 @@ tech covered
   }
 
   
-        .content {
-          padding: 0 18px;
-          padding: 0px 20px 0px 20px;
-          display: none;
-          overflow: hidden;
-          
-          /* background-color: #fff; */
-        }
-        .content li{
-          color: #3d4a63;
-          font-weight: 500;
-          list-style:circle;
-          margin-left: 50px;
-          line-height: 40px;
-          
-        }
+    .content {
+      padding: 0 18px;
+      padding: 0px 20px 0px 20px;
+      display: none;
+      overflow: hidden;
+      
+      /* background-color: #fff; */
+    }
+    .content li{
+      color: #3d4a63;
+      font-weight: 500;
+      list-style:circle;
+      margin-left: 50px;
+      line-height: 40px;
+      
+    }
 
-        .c-details{
-          padding: 50px 50px 50px 50px;
-        }
-        .c-details h1{
-          font-size: 32px;
-        }
-        .c-details .c-d1{
-          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-          width: 100%;
-          margin: 10px 0px 10px 0px;
-          padding: 10px 0px 20px 0px;
-          color: #ffffff;
-          
-          /* background-color: #02a0fc; */
-        }
+    .c-details{
+      padding: 50px 50px 50px 50px;
+    }
+    .c-details h1{
+      font-size: 32px;
+    }
+    .c-details .c-d1{
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+      width: 100%;
+      margin: 10px 0px 10px 0px;
+      padding: 10px 0px 20px 0px;
+      color: #ffffff;
+      
+      /* background-color: #02a0fc; */
+    }
      
          
 }
@@ -1873,7 +1886,7 @@ footer .footer-area .f-l{
 }
 footer .footer-area .f-con{
   width: 20%;
-  padding-left: 10px;
+  padding-left: 0px;
 }
 
 footer a{

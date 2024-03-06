@@ -1518,7 +1518,7 @@ tech covered
 */
 .tech {
   padding: 100px;
-  padding-top: 50px; padding: 50px; background: linear-gradient(259deg, #101AFA 0%, #0B11A8 39%, #030532 95%);
+  padding: 50px; background: linear-gradient(259deg, #101AFA 0%, #0B11A8 39%, #030532 95%);
 }
 .tech h1{
   text-align: center;
@@ -1530,21 +1530,25 @@ tech covered
 .tech .techs{
   padding: 50px 50px 50px 50px;
   border-radius: 20px;
+  justify-content: space-between;
   background-color: #fff;
   /* width: 5000px; */
-
 }
 .tech .techs img{
-  width: 100px;
+  width: 130px;
 }
 
-@media (max-width:450px){
+@media (max-width:750px){
+ 
+  .tech {
+    padding: 30px; 
+  }
+
   .tech .techs{
-    padding: 30px 20px 30px 0px;
+    padding: 30px 0px 30px 0px;
   }
   .tech .techs img{
-    width: 100px;
-    padding-left: 20px;
+    width: 80px;
   }
 }
 .syllabus{

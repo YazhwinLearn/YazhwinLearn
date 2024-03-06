@@ -827,15 +827,31 @@ courses
   position: relative;
   margin-bottom: 30px;
   padding-top: 20px;
-  height: 400px;
+  height: 470px;
 }
 
+.knowmore{  
+  position:absolute;
+  border-radius: 8px;
+  bottom: 15px;
+  left :10%;
+  right: 10%;
+  padding: 10px;
+  border: 2px solid;
+  border-image: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66)) 1;
+  color: #02063b;
+  font-weight: 600;
+}
+.knowmore:hover {
+  border-radius: 20px;
+  border: 0px solid #ffffff;
+  background-image: linear-gradient(to right, #3700ff 0%, #3802fc  51%, #00d2ff  100%);
+  color: #fff;
+}
 .courses-small-item:hover{
-    border-style: solid;
     border-radius: 20px;
-    border-width: 1.5px;
-    border-color: limegreen;
-    /* border-image: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66)) 1; */
+    border: 1.5px solid limegreen ;
+
   
 }
 .courses-small-item:hover .icon {
@@ -845,8 +861,8 @@ courses
   border-style: solid;
   margin-top: 20px;
   line-height: 100px;
-  width: 110px;
-  height: 110px;
+  /* width: 110px; */
+  /* height: 110px; */
 }
 
 .courses-small-item .icon {

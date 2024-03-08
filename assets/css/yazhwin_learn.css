@@ -2016,7 +2016,7 @@ footer .footer-area{
 preloader
 --------------------------------------------- 
 */
-#preloader {
+/* #preloader {
   overflow: hidden;
   background-image: linear-gradient(135deg, #1b0a80 0%, #02a0fc 100%);
   left: 0;
@@ -2066,7 +2066,7 @@ preloader
 }
 .pre_logo{
   position: absolute; 
-  /* margin: 30% 30% 25% 30%  ;  */
+  margin: 30% 30% 25% 30%  ; 
   font-size: 28px; 
   text-align: center;
   left: 0;
@@ -2103,4 +2103,4 @@ preloader
   100% {
     opacity: 0;
   }
-}
+} */

@@ -2064,7 +2064,17 @@ preloader
   -webkit-animation-delay: 0.66666s;
   animation-delay: 0.66666s;
 }
-
+.pre_logo{
+  position: absolute; 
+  /* margin: 30% 30% 25% 30%  ;  */
+  font-size: 28px; 
+  text-align: center;
+  left: 0;
+  right: 0;
+  top: 60%;
+  font-weight: 600;
+  bottom: 0;
+}
 @-webkit-keyframes jumper {
   0% {
     opacity: 0;

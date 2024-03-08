@@ -2066,12 +2066,12 @@ preloader
 }
 .pre_logo{
   position: absolute; 
-  margin: 30% 30% 25% 30%  ; 
+  /* margin: 30% 30% 25% 30%  ;  */
   font-size: 28px; 
   text-align: center;
   left: 0;
   right: 0;
-  top: 60%;
+  top: 30%;
   font-weight: 600;
   bottom: 0;
 }

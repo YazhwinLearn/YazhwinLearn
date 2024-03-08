@@ -129,7 +129,7 @@ for (i = 1; i < doc.length; i++) {
 			'opacity': '0'
 		}, 600, function(){
 			setTimeout(function(){
-				$("#preloader").css("visibility", "hidden").fadeOut();
+				$("#preloader").css("visibility", "hidden").fadeOut('slow');
 			}, 300);
 		});
 	});

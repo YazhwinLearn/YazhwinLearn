@@ -312,7 +312,7 @@ body {
 a.main-button-slider {
   font-size: 13px;
   border-radius: 8px;
-  padding: 12px 20px;
+  padding: 15px 30px 15px 30px;
   background-color: #ffffff;
   text-transform: uppercase;
   font-weight: bold;
@@ -830,20 +830,20 @@ courses
   height: 470px;
 }
 
-.knowmore{  
+.courses-small-item .knowmore{  
   position:absolute;
   border-radius: 8px;
+  border:2px solid;
   bottom: 15px;
   left :10%;
   right: 10%;
   padding: 10px;
-  border: 2px solid;
-  border-image: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66)) 1;
+  border-image: linear-gradient(90deg,  #56CCF2,#2F80ED) 1;
   color: #02063b;
   font-weight: 600;
 }
-.knowmore:hover {
-  border-radius: 20px;
+.courses-small-item:hover .knowmore {
+  border-radius: 8px;
   border: 0px solid #ffffff;
   background-image: linear-gradient(to right, #3700ff 0%, #3802fc  51%, #00d2ff  100%);
   color: #fff;
@@ -1125,44 +1125,69 @@ padding: 5% 10% 5% 10%;
 }
 
 .placement{
-  background: #010370;
-  padding:50px 100px 50px 100px;
+  background-color: #010370;
   color: #fff;
+  padding: 50px 100px 50px 100px;
 }
 .placement h1{
-  font-size: 32px;
-  padding: 0px 0px 50px 0px;
-  font-weight: 600;
   text-align: center;
+  font-weight: 600;
+  font-size: 32px;
+  padding: 50px 0px 50px 0px;
 }
 .placement .own-c{
   background: #fff;
-  border-radius: 20px;
-  padding: 50px 20px 50px 45px;
   margin-bottom: 40px;
-}
-.placement .own-c .oc{
-  font-size: 28px;
-  font-weight: 600;
-  color: #1a0468;
+  border-radius: 20px;
+  padding: 20px;
   text-align: center;
-}
-.placement .own-c h2{
+  color: #02063b;
   font-size: 28px;
-  font-weight: 600;
-  color: #1a0468;
-  text-align: center;
-  padding-bottom: 50px;
-
+  font-weight: 550;
+  /* justify-content: space-between; */
 }
-.placement div img{
-  width: 18%;
-  padding-left: 20px;
-
+.placement .own-c a img{
+  width: 160px;
 }
-.placement .other-c img{
-  width: 200px;
-  padding: 30px 20px 0px 50px;
+.placement .own-c img{
+  width: 150px;
+  padding: 20px;
+}
+@media (max-width:1200px){
+  .placement {
+    padding: 50px 50px 50px 50px;
+  }
+  .placement .own-c a img{
+    width: 170px;
+  }
+  .placement .own-c img{
+    width: 130px;
+    padding: 20px;
+  }
+}
+@media (max-width:900px){
+  .placement {
+    padding: 50px 50px 50px 50px;
+  }
+  .placement .own-c a img{
+    width: 150px;
+  }
+  .placement .own-c img{
+    width: 130px;
+    padding: 20px;
+  }
+}
+@media (max-width:600px){
+  .placement {
+    padding: 30px 30px 30px 30px;
+  }
+  .placement .own-c a img{
+    width: 120px;
+  }
+  .placement .own-c img{
+    width: 120px;
+    padding: 20px;
+  }
 }
 .enroll{
   margin: 50px 100px 50px 100px;
@@ -1286,35 +1311,6 @@ padding: 5% 10% 5% 10%;
       margin-bottom: 40px;
       width: 100%;
     }
-  
-.placement{
-  padding:50px 50px 50px 50px;
-}
-.placement h1{
-  font-size: 28px;
-}
-.placement .own-c{
-  background: #fff;
-  border-radius: 20px;
-  padding: 20px 20px 30px 45px;
-  margin-bottom: 30px;
-}
-.placement .own-c .oc{
-  font-size: 24px;
-}
-.placement .own-c h2{
-  font-size: 24px;
-  padding-bottom: 10px;
-}
-.placement div img{
-  /* width: 1000%; */
-  padding-left: 0px;
-}
-.placement .other-c img{
-  width: 100px;
-  padding: 30px 20px 0px 10px;
-}
-
 }
 @media (max-width:780px){
   .enroll{

@@ -25,8 +25,7 @@ Table of contents
 font & reset css
 --------------------------------------------- 
 */
-/* @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"); */
-@import url("https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900");
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Goblin+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Squada+One&family=Tilt+Warp&display=swap');
 /* 
 ---------------------------------------------
 reset
@@ -78,7 +77,7 @@ header, nav, section, article, aside, footer, hgroup {
 }
 
 html, body {
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   background-color: #fff;
   font-size: 16px;
@@ -108,7 +107,7 @@ global styles
 html,
 body {
   background: #fff;
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 ::selection {
@@ -670,8 +669,12 @@ welcome
 }
 .welcome-area h1 {
   padding-bottom: 50px;
+  font-family: "Bakbak One", sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  line-height: 60px;
   text-align: center;
-  font-weight: 600;
   font-size: 36px;
 }
 .welcome-area p {
@@ -689,9 +692,12 @@ welcome
   padding: 80px 9% 0px 9%;
 }
 .welcome-area1 h1 {
+  font-family: "Bakbak One", sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  word-spacing: 1px;
   padding-bottom: 60px;
   text-align: center;
-  font-weight: 600;
   font-size: 36px;
 }
 .welcome-area1 p {
@@ -900,7 +906,7 @@ courses
   border-radius: 10px;
 }
 .courses-small-item .courses-title {
-  font-weight: 550;
+  font-weight: 650;
   font-size: 20px;
   color: #12086e;
   letter-spacing: 0.7px;
@@ -1557,7 +1563,7 @@ tech covered
   }
 
   .tech .techs{
-    padding: 30px 0px 30px 0px;
+    padding: 30px 30px 30px 30px;
   }
   .tech .techs img{
     width: 80px;
@@ -1863,7 +1869,7 @@ Connect
 }
 
 .connecthead{
-  font-size: 24px;
+  font-size: 28px;
   color: white;
   font-weight: bold;
   text-align: center;
@@ -1878,18 +1884,19 @@ footer {
   background-image: linear-gradient(127deg, #150238 0%, #0a036b 91%);
   padding-top: 30px;
   color: #fff;
+
   /* text-align: center; */
 }
 footer .footer-area{
   padding: 50px 80px 50px 100px;
-  /* justify-content: space-between; */
+  font-size: 16px;
 }
 footer .footer-area .f-logo{
   padding-right: 10px;
   width: 21%;
 }
 footer .footer-area .f-c{
-  width: 24%;
+  width: 25%;
   padding-left: 20px;
 }
 footer .footer-area .f-in{
@@ -1897,12 +1904,16 @@ footer .footer-area .f-in{
   padding-left: 20px;
 }
 footer .footer-area .f-l{
-  width: 15%;
-  padding-left: 20px;
+  width: 14%;
+  padding-left: 15px;
 }
 footer .footer-area .f-con{
   width: 20%;
-  padding-left: 0px;
+  padding-left: 10px;
+}
+
+footer .footer-area .f-con i{
+  width: 6%;
 }
 
 footer a{
@@ -1926,8 +1937,6 @@ footer .copyright {
   margin-top: 30px;
   padding-top: 30px;
   padding-bottom: 30px;
-  /* padding-left: 20%; */
-  margin: 0% 0% 0% 0%;
   font-weight: 400;
   font-size: 12px;
   color: #fff;

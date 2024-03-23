@@ -445,6 +445,8 @@ header
 }
 @media (max-width: 991px) {
   .header-area .apply {
+    float: none;
+    margin-top: 0px;
     visibility: hidden;
   }
 }
@@ -583,16 +585,16 @@ header
     display: block !important;
   }
   .header-area .main-nav {
-    overflow: hidden;
+    /* overflow: hidden; */
   }
   .header-area .main-nav .logo{
     padding-left: 30px;
   }
   .header-area .main-nav .nav {
-    float: none;
+    float:right;
     padding: 0px 0px 0px 0px;
     width: 100%;
-    margin-top:80px !important;
+    margin-top:0px !important;
     display: none;
     -webkit-transition: all 0s ease 0s;
     -moz-transition: all 0s ease 0s;

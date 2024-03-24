@@ -614,14 +614,14 @@ header
     height: 50px !important;
     line-height: 50px !important;
     
-    padding-left: 50px !important;
+    /* padding-left: 0px; */
     border: none !important;
     background: #fff !important;
     color: #3B566E !important;
     
   }
   .header-area .main-nav .nav li .dropdown-options a {
-    padding:0px 25px 0px  25px ;
+    padding:0px 25px 0px  50px ;
     line-height: 50px !important;
     border: none !important;
     background: #fff !important;

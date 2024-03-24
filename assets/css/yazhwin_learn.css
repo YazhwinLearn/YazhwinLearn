@@ -1048,8 +1048,9 @@ padding-bottom: 50px;
 }
 .how h1{
   text-align: center;
-  
+  font-size: 32px;
   padding-bottom: 50px;
+  font-weight: 600;
 }
 .how .row{
   flex-wrap: nowrap;
@@ -1724,7 +1725,7 @@ tech covered
   justify-content: space-between;
 }
 .job-o h1{
-  font-size: 36px;
+  font-size: 32px;
   font-weight: 600;
   color: #02063b;
   text-align: center;
@@ -1758,13 +1759,19 @@ tech covered
   line-height: 40px;
   font-weight: 500;
 }
+@media (max-width:450px){
+  .job-o h1{
+    font-size: 2px;
+    padding-bottom: 20px;
+  }
+}
 @media (max-width:750px){
 
         .job-o{
-          padding: 50px 50px 50px 50px;
+          padding: 50px 25px 50px 25px;
         }
         .job-o h1{
-          font-size: 32px;
+          font-size: 28px;
           padding-bottom: 20px;
         }
         .job-o .jod{

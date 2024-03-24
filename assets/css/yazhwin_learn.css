@@ -414,7 +414,6 @@ header
 .header-area .main-nav .nav li .dropdown-options a {
   display: block;
   color: #0b013f;
-  padding: 50px;
   text-decoration: none;
   padding:0px 25px 0px  25px ;
   text-align: left;
@@ -584,9 +583,9 @@ header
   .header-area .menu-trigger {
     display: block !important;
   }
-  .header-area .main-nav {
+  /* .header-area .main-nav {
     /* overflow: hidden; */
-  }
+  /* } */ 
   .header-area .main-nav .logo{
     padding-left: 30px;
   }
@@ -615,14 +614,14 @@ header
     height: 50px !important;
     line-height: 50px !important;
     
-    padding: 0px !important;
+    padding-left: 50px !important;
     border: none !important;
     background: #fff !important;
     color: #3B566E !important;
     
   }
   .header-area .main-nav .nav li .dropdown-options a {
-    margin-left: 20%;
+    padding:0px 25px 0px  25px ;
     line-height: 50px !important;
     border: none !important;
     background: #fff !important;

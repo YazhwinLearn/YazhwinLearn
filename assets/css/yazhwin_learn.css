@@ -663,7 +663,7 @@ welcome
   background-repeat: no-repeat;
   background-size: cover; 
   /* background: linear-gradient(90deg,#040461,#0083FE, #040a7c); */
-  padding: 120px;
+  padding: 100px;
   text-align: center;
   color: #fff;
   line-height: 40px;
@@ -678,11 +678,14 @@ welcome
   line-height: 60px;
   text-align: center;
   font-size: 36px;
+  
 }
 .welcome-area p {
   padding: 0px 10% 50px 10%;
   font-weight: 500;
   font-size: 18px;
+  -webkit-animation: moveToLeft .6s ease both;
+  animation: moveToLeft .6s ease both;
 }
 .welcome-area1 {
   background-image: url(../images/bannerbg.png);
@@ -992,6 +995,7 @@ Pay After placement courses
 }
 .pap-area{
   margin: 100px;
+  
 }
 .pap-area h1{
   text-align: center;
@@ -1290,6 +1294,8 @@ padding: 5% 10% 5% 10%;
   .how h1{
     text-align: center;
     padding-bottom: 50px;
+    font-size: 32px;
+    font-weight: 800;
   }
   .how .steps {
     padding-top: 75px;

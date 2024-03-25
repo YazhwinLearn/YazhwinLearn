@@ -268,8 +268,8 @@ body {
   margin-bottom: 30px !important;
 }
 
-.margin-top-30 {
-  margin-top: 30px !important;
+.margin-top-50 {
+  margin-top: 100px !important;
 }
 
 .margin-top-15 {
@@ -2029,7 +2029,64 @@ footer .footer-area{
     padding-left: 0px;
   }
 }
-
+/* 
+---------------------------------------------
+404 page not found
+--------------------------------------------- 
+*/
+.pnf-area{
+  margin: 200px 200px 130px 200px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.pnf-area .error{
+  font-size: 100px;
+  font-weight: 1000;
+  text-align: center;
+  color: #02063b;
+  letter-spacing: 15px;
+}
+.pnf-area p{
+  padding: 20px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  color: #030532;
+}
+.pnf-area .bth {
+  padding: 15px 30px 15px 30px;
+  text-align: center;
+  border-radius: 20px;
+  border: 2px solid #02063b;
+  color: #02063b;
+  margin: 20px 0px 20px 0px;
+}
+.pnf-area .bth:hover {
+  padding: 15px 30px 15px 30px;
+  text-align: center;
+  border-radius: 20px;
+  background: linear-gradient(#02063b,#030532,#0a0131);
+  border: 2px solid #fff;
+  color: #fff;
+  margin: 20px 0px 20px 0px;
+}
+@media (max-width:600px){
+  .pnf-area{
+    margin: 150px 50px 100px 50px;
+  }
+  .pnf-area .error{
+    font-size: 70px;
+  }
+  .pnf-area p{
+    font-size: 24px;
+  }
+  .pnf-area .bth {
+    
+    margin: 30px 0px 20px 0px;
+  }
+}
 /* 
 ---------------------------------------------
 preloader

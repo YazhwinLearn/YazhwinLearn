@@ -951,7 +951,9 @@ courses
     padding-top: 0px;
     margin-top: 0px;
   }
-  
+.courses-small-item{
+  flex-direction: row;
+}
 .courses-small-item p {
   padding: 0px 10px 0px 10px;
 }
@@ -969,6 +971,189 @@ courses
     font-size: 18px;
   }
   
+}
+.fees_area{
+  margin: 50px;
+  padding: 20px;
+  background-color: #02063b;
+  color: #fff;
+}
+.fees_area .fee_or{
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 20px;
+  letter-spacing: 2px;
+}
+.fees_area .fee_text{
+  padding: 40px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #fff;
+  color: #02063b;
+  word-spacing: 0.1rem;
+}
+.fees_area .fee_text span{
+  background-color: #030532;
+  padding: 10px 20px;
+  margin-left: 20px;
+  color: #fff;
+  
+}
+.fees_area .fee_details{
+  background-color: #fff;
+  font-weight: 600;
+  color: #02063b;
+  line-height: 40px;
+  padding: 20px;
+  width: 50%;
+  border-top: 20px solid #030532;
+}
+.fees_area .fee-enroll {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff ;
+  /* border: 2px solid #030532; */
+}
+.fees_area .fee-enroll .fee_emi {
+  flex-direction: column;
+  margin-left: 20px;
+  width: 50%;
+  border-top: 20px solid #030532;
+  padding: 100px 50px 50px 50px;
+  text-align: center;
+}
+.fees_area .fee-enroll .fee_emi a{
+  padding: 20px 40px;
+  text-align: center;
+  background-color: #02063b;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.fees_area .head-text{
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  word-spacing: 0.1rem;
+  border: 2px solid #a9a7a7;
+}
+.fees_area .fee_structure{
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #0b013f;
+  display: flex;
+  flex-direction: row;
+  
+}
+.fees_area .fee_structure .remaining{
+  width: 70%;
+  text-align: center;
+  /* width: 30%; */
+  padding: 20px;
+  font-size: 18px;
+  box-shadow: 0 2px 48px 0 rgba(255, 255, 255, 0.1);
+  
+}
+.fees_area .fee_structure .initial{
+  text-align: center;
+  width: 40%;
+  padding: 20px;
+  font-size: 18px;
+  box-shadow: 0 2px 48px 0 rgba(255, 255, 255, 0.1);
+  
+}
+.fees_area .fee_structure .initial span , .fees_area .fee_structure .remaining span
+{
+  border-radius: 8px;
+  font-weight: 600;
+  margin-left: 20px;
+  cursor:auto;
+  padding: 15px 30px 15px 30px;
+  background-color: #fff;
+  color: #030532;
+}
+.fees_area .fee_structure .initial span:hover , .fees_area .fee_structure .remaining span:hover
+{
+  border-radius: 12px;
+  background: linear-gradient( 30deg,#02063b,#0a0131,#030532);
+  border: 5px solid #fff;
+  color: #fff;
+}
+.fees_area .pap_km{
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  /* background-color: #fff; */
+}
+.fees_area .pap_km a{
+  color: #fff;
+  padding: 20px 40px;
+  border-radius: 12px;
+  text-decoration: none;
+  border: 2px solid #fff;
+}
+.fees_area .pap_km a:hover{
+  background-color: #fff;
+  color: #02063b;
+  padding: 20px 40px;
+  border-radius: 16px;
+  border: 2px solid #fff;
+}
+
+@media (max-width:1100px){
+  .fees_area .fee-enroll .fee_emi {
+    flex-direction: column;
+    margin-left: 0px;
+    width: 100%;
+    border-top: 20px solid #030532;
+    padding: 50px 50px 50px 50px;
+    text-align: center;
+  }
+  .fees_area .fee-enroll .fee_emi a{
+    padding: 20px 40px;
+    text-align: center;
+    background-color: #02063b;
+    color: #fff;
+    border-radius: 8px;
+  } 
+.fees_area .fee_text{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.fees_area .fee_text span{
+  background-color: #030532;
+  padding: 10px 20px;
+  margin-left: 0px;
+  margin-top: 20px;
+  
+  
+}
+  .fees_area .fee_details{
+    width: 100%;
+  }
+  .fees_area .fee-enroll {
+    flex-direction: column;
+  }
+  
+  .fees_area .fee_structure{
+    flex-direction: column;
+    
+  }
+  .fees_area .fee_structure .initial,
+  .fees_area .fee_structure .remaining{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .fees_area .fee_structure .initial span,
+  .fees_area .fee_structure .remaining span
+  {
+    margin-top: 20px;
+  }
 }
 /* 
 ---------------------------------------------

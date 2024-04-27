@@ -1400,8 +1400,7 @@ padding: 5% 10% 5% 10%;
 }
 .enroll{
   margin: 50px 100px 50px 100px;
-  text-align: center;
-  color: #fff;
+  color: #02063b;
   font-weight: 600;
 }
 .enroll .enroll-head {
@@ -1411,17 +1410,31 @@ padding: 5% 10% 5% 10%;
   color: rgb(2, 6, 59);
   padding-bottom: 30px;
 }
-.enroll .process{
-  border-radius: 8px;
-  width: 31.3%;
-  /* background-color: #02063b; */
-  margin: 1%;
-  padding: 50px;
-  background: linear-gradient(126deg, rgb(27, 1, 94) 0%, rgb(14, 1, 128) 14.24%, rgb(35, 5, 182) 49.56%, rgb(19, 2, 88) 93.2%);
+.enroll .row{
+  justify-content: space-between;
 }
-.enroll .process img{
-  width: 40%;
-  padding-bottom: 40px;
+.enroll .process{
+  padding: 2%;
+  width: 30%;
+  border-radius: 8px;
+  border-left: 5px solid #2bff01;
+  /* border-right: 5px solid #02063b; */
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.10);
+}
+.enroll .process h3{
+  font-size: 24px;
+  color: #26cc05;
+  font-weight: 600;
+}
+.enroll .process h5{
+  padding-top: 15px;
+  font-size: 16px;
+  color: #26cc05;
+  font-weight: 600;
+}
+.enroll .process p{
+  padding-top: 15px;
+  font-weight: 400;
 }
 .enroll .enroll-apply {
   text-decoration: none;
@@ -1535,11 +1548,8 @@ padding: 5% 10% 5% 10%;
   }
   .enroll .process{
     border-radius: 8px;
-    width: 97%;
-    /* background-color: #02063b; */
-    margin: 3%;
-    padding: 50px;
-    background: linear-gradient(126deg, rgb(27, 1, 94) 0%, rgb(14, 1, 128) 14.24%, rgb(35, 5, 182) 49.56%, rgb(19, 2, 88) 93.2%);
+    width: 100%;
+    margin-bottom: 10px;
   }
   .enroll .process1{
     padding: 10px 10px 10px 10px;

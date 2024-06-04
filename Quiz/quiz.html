@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Practice Platform</title>
+    <style>
+        body {
+            display: flex;
+        }
+
+        .sidebar {
+            width: 20%;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+
+        .main {
+            flex: 1;
+            padding: 20px;
+        }
+
+        textarea {
+            width: 100%;
+            height: 200px;
+        }
+
+        button {
+            margin-top: 10px;
+        }
+
+        pre {
+            background-color: #f0f0f0;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Problem List</h2>
+        <ul id="problem-list"></ul>
+    </div>
+    <div class="main">
+        <h2>Problem Statement</h2>
+        <p id="problem-statement">Select a problem from the list.</p>
+        <textarea id="code"></textarea>
+        <button onclick="runCode()">Run Code</button>
+        <h2>Output</h2>
+        <pre id="output"></pre>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Fetch problems and populate the sidebar
+            fetchProblems();
+        });
+
+        async function fetchProblems() {
+            const problems = await fetch('/api/problems').then(response => response.json());
+            const problemList = document.getElementById('problem-list');
+            problemList.innerHTML = '';
+            problems.forEach(problem => {
+                const listItem = document.createElement('li');
+                listItem.textContent = problem.title;
+                listItem.onclick = () => displayProblem(problem);
+                problemList.appendChild(listItem);
+            });
+        }
+
+        function displayProblem(problem) {
+            document.getElementById('problem-statement').textContent = problem.statement;
+        }
+
+        async function runCode() {
+            const code = document.getElementById('code').value;
+            const output = await fetch('/api/run', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ code })
+            }).then(response => response.json());
+            document.getElementById('output').textContent = output;
+        }
+    </script>
+</body>
+</html>
